@@ -1,0 +1,114 @@
+body{
+    font-family : 'Pirata One',cursive;
+    margin:0;
+    padding: 0; 
+    background-image: url(flames.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   background-repeat: no-repeat;
+
+
+} 
+
+.container{
+    display: block;
+    width:50%;
+    padding:50px;
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: 3px 3px 10px orangered;
+    font-size:2rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.container input{
+    width:80%;
+    padding:10px;
+    margin:10px,0;
+    position: relative;
+    margin: 1rem 0;
+    color:orangered;
+    background-color: black;
+
+}
+
+.container button{
+    padding:0.75rem 3rem;
+    max-width: fit-content;
+    margin: auto;
+    outline: none;
+    border:none;
+    border-radius: 5rem;
+    font-size: 2rem;
+    font-weight: 800;
+    color:black;
+    text-shadow: 3px 3px 10px orangered;  
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.conatiner button:hover{
+    background-color: rgb(141, 141, 163);
+}
+
+.container h1 h3 p a{
+    width:80%;
+    padding:10px;
+    margin:10px,0;
+    position: relative;
+    margin: 1rem 0;
+
+    
+}
+@keyframes flicker {
+    /* Initial state of animation */
+    0%, 
+    /* Final state of animation */
+    100% { 
+        text-shadow: 
+            0 -1px 3px #fff, /* Innermost layer - intense heat (white) */
+            0 -2px 6px #FF3, /* Second layer - core of flame (yellow) */
+            0 -6px 12px #F90, /* Middle layer - body of flame (orange) */
+            0 -10px 20px #C33; /* Outermost layer - edges of flame (red) */
+    }
+    /* Middle state of animation */
+    50% { 
+        text-shadow: 
+            0 -2px 6px #fff, /* Innermost layer - intense heat (white) */
+            0 -4px 12px #FF3, /* Second layer - core of flame (yellow) */
+            0 -8px 16px #F90, /* Middle layer - body of flame (orange) */
+            0 -12px 24px #C33; /* Outermost layer - edges of flame (red) */
+    }
+}
+
+.container h3{
+ font-size: 30px;
+ font-weight: 300;
+ font-style: italic;
+ text-shadow:3px 8px 12px red; 
+ animation: flicker 2s infinite;
+}
+
+.container a button{
+    padding:1rem 3rem;
+    max-width: fit-content;
+    margin: auto;
+    outline: none;
+    border:none;
+    border-radius: 5rem;
+    font-size: 2rem;
+    font-weight: 800;
+    color:black;
+    text-shadow: 3px 3px 10px orangered;  
+    background-color: black;
+    top:20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
