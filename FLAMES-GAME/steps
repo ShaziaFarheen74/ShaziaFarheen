@@ -1,0 +1,23 @@
+Step 1: Set Up Your Project Structure
+Create a folder for your project and set up the following files:
+
+index.html (for the HTML structure)
+styles.css (for styling)
+app.py (for the Python backend)
+static/ (folder for CSS and JS files)
+templates/ (folder for HTML templates)
+
+Step 2: Create the HTML Structure
+In index.html, set up the basic structure of the webpage.
+
+Step 3: Style Your Page
+In styles.css, add some basic styles to make your page look nicer.
+
+Step 4: Implement the FLAMES Logic in Python
+In app.py, set up a simple Flask server to handle the game logic.
+
+Step 5: Running the Application
+Install Flask if you haven't already:
+pip install flask
+Run the Flask app.
+Open your browser and go to http://127.0.0.1:5000/ to play the game!
